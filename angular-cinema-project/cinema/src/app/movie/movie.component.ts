@@ -12,6 +12,7 @@ export class MovieComponent implements OnInit {
   @ViewChild('mForm', { static: true }) movieForm: FormGroup;
   movie: Movie = new Movie();
 
+  categories: string[] = ["Drama", "Action", "Fantasy"];
   constructor() {
 
   }
